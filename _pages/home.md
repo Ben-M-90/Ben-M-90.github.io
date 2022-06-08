@@ -16,11 +16,9 @@ header:
 Biography
 </h2>
 
-.
+Current Quality Engineer with a background in Mechanical Engineering in Automotive and Aerospace industries intending to make a career change to Software Engineering with a focus on back-end Python development.
 
 [expand]
-
-Current Quality Engineer with a background in Mechanical Engineering in Automotive and Aerospace industries intending to make a career change to Software Engineering with a focus on back-end Python development.
 
 Experience working with pre-production product life (stress analysis to drive design changes to improve product performance, set-up of new manufacturing line) and post-production (analyzing defect data to capture quality issues and drive manufacturing changes to eliminate concerns).
 
