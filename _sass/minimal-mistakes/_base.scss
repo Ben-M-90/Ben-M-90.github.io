@@ -350,7 +350,7 @@ input[type="submit"],
     max-width: 1000px;
     margin: 0 auto;
     position: relative;
-    @include box-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));
+    /*@include box-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));*/
 }
 
 .main-wrapper {
