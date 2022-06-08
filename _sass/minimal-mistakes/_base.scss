@@ -441,8 +441,10 @@ input[type="submit"],
         margin-bottom: 1px;
     }
 
-    .publication-authors {
+    .publication-authors,
+    .publication-conference {
         font-style: italic;
+        font-size: 16px;
         /*color: $text-grey;*/
         margin-bottom: 1px;
     }
@@ -472,11 +474,11 @@ input[type="submit"],
 
     .level-bar {
         height: 12px;
-        background: white;
+        background: $code-background-color;
     }
 
     .level-bar-inner {
         height: 12px;
-        background: lighten(#ff0000, 15%);
+        background: lighten($primary-color, 15%);
     }
 }
