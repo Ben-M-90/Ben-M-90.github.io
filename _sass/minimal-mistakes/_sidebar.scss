@@ -71,7 +71,7 @@
     }
 
     .container-block {
-        padding: 0px;
+        padding: 30px;
     }
 
     .container-block-title {
@@ -79,18 +79,18 @@
         font-size: 16px;
         font-weight: 700;
         margin-top: 0;
-        margin-bottom: 0px;
+        margin-bottom: 15px;
     }
 
     .degree {
-        font-size: 14px;
+        font-size: 14px !important;
         margin-top: 0;
-        margin-bottom: 0px;
+        margin-bottom: 5px;
     }
 
     .education-container {
         .item {
-            margin-bottom: 0px;
+            margin-bottom: 15px;
 
             &:last-child {
                 margin-bottom: 0;
