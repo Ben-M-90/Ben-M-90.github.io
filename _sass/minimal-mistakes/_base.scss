@@ -347,7 +347,6 @@ input[type="submit"],
 .wrapper {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    background: $theme-color;
     max-width: 1000px;
     margin: 0 auto;
     position: relative;
@@ -363,7 +362,7 @@ input[type="submit"],
         text-transform: uppercase;
         font-size: 20px;
         font-weight: 500;
-        color: darken($theme-color, 15%);
+        /*color: darken($theme-color, 15%);*/
         position: relative;
         margin-top: 0;
         margin-bottom: 20px;
@@ -388,7 +387,7 @@ input[type="submit"],
 
     .job-title,
     .degree {
-        color: $text-color;
+        /*color: $text-color;*/
         font-size: 16px;
         margin-top: 0;
         margin-bottom: 0;
@@ -399,13 +398,13 @@ input[type="submit"],
         position: absolute;
         right: 0;
         top: 0;
-        color: $text-grey;
+        /*color: $text-grey;*/
     }
 
     .company,
     .university {
         margin-bottom: 10px;
-        color: $text-grey;
+        /*color: $text-grey;*/
     }
 
     .project-title {
@@ -413,7 +412,7 @@ input[type="submit"],
         font-weight: 400;
         margin-top: 0;
         margin-bottom: 5px;
-        color: darken($theme-color, 15%);
+        /*color: darken($theme-color, 15%);*/
     }
 
     .projects-section {
@@ -429,13 +428,13 @@ input[type="submit"],
     .publication-title {
         font-size: 16px;
         font-weight: 400;
-        color: $text-color;
+        /*color: $text-color;*/
         margin-bottom: 1px;
     }
 
     .publication-authors {
         font-style: italic;
-        color: $text-grey;
+        /*color: $text-grey;*/
         margin-bottom: 1px;
     }
 
@@ -464,11 +463,11 @@ input[type="submit"],
 
     .level-bar {
         height: 12px;
-        background: $smoky-white;
+        /*background: $smoky-white;*/
     }
 
     .level-bar-inner {
         height: 12px;
-        background: lighten($theme-color, 15%);
+        /*background: lighten($theme-color, 15%);*/
     }
 }
