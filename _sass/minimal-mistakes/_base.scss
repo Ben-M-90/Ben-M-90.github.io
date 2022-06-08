@@ -417,6 +417,13 @@ input[type="submit"],
         /*color: darken($theme-color, 15%);*/
     }
 
+    .project-tagline {
+        font-size: 16px;
+        margin-top: 0;
+        margin-bottom: 5px;
+        /*color: darken($theme-color, 15%);*/
+    }
+
     .projects-section {
         .intro {
             margin-bottom: 30px;
@@ -465,11 +472,11 @@ input[type="submit"],
 
     .level-bar {
         height: 12px;
-        /*background: $smoky-white;*/
+        background: white;
     }
 
     .level-bar-inner {
         height: 12px;
-        /*background: lighten($theme-color, 15%);*/
+        background: lighten(#ff0000, 15%);
     }
 }
