@@ -26,12 +26,16 @@ Technology and computers have been a central focus of my life since I was little
 
 [/expand]
 
-{% include career-profile.html %}
+<div class="main-wrapper">
 
-{% include experiences.html %}
+	{% include career-profile.html %}
 
-{% include projects.html %}
+	{% include experiences.html %}
 
-{% include publications.html %}
+	{% include projects.html %}
 
-{% include skills.html %}
+	{% include publications.html %}
+
+	{% include skills.html %}
+
+</div>
