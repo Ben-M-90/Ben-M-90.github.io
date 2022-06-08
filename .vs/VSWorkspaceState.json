@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\_sass",
+    "\\_sass\\minimal-mistakes"
   ],
   "PreviewInSolutionExplorer": false
 }
