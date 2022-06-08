@@ -10,8 +10,8 @@ header:
 
 <h2>
 <span class="fa-stack fa-xs">
-	<i class="fas fa-circle fa-stack-3x"></i>
-	<i class="fa fa-user fa-stack-2x fa-inverse"></i>
+	<i class="fas fa-circle fa-stack-2x"></i>
+	<i class="fa fa-user fa-stack-1x fa-inverse"></i>
 </span>
 Biography
 </h2>
@@ -31,8 +31,8 @@ Projects
 
 <h2>
 <span class="fa-stack fa-xs">
-	<i class="fas fa-circle fa-stack-3x"></i>
-	<i class="fa fa-briefcase fa-stack-2x fa-inverse"></i>
+	<i class="fas fa-circle fa-stack-2x"></i>
+	<i class="fa fa-briefcase fa-stack-1x fa-inverse"></i>
 </span>
 Experience
 </h2>
