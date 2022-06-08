@@ -15,6 +15,7 @@ header:
 </span>
 Biography
 </h2>
+
 [expand]
 Current Quality Engineer with a background in Mechanical Engineering in Automotive and Aerospace industries intending to make a career change to Software Engineering with a focus on back-end Python development.
 
