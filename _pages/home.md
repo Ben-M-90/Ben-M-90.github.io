@@ -26,26 +26,12 @@ Technology and computers have been a central focus of my life since I was little
 
 [/expand]
 
-<h2>
-<span class="fa-stack fa-xs">
-	<i class="fas fa-circle fa-stack-2x"></i>
-	<i class="fa fa-archive fa-stack-1x fa-inverse"></i>
-</span>
-Projects
-</h2>
+{% include career-profile.html %}
 
-<h2>
-<span class="fa-stack fa-xs">
-	<i class="fas fa-circle fa-stack-2x"></i>
-	<i class="fa fa-briefcase fa-stack-1x fa-inverse"></i>
-</span>
-Experience
-</h2>
+{% include experiences.html %}
 
-<h2>
-<span class="fa-stack fa-xs">
-	<i class="fas fa-circle fa-stack-2x"></i>
-	<i class="fa fa-wrench fa-stack-1x fa-inverse"></i>
-</span>
-Skills & Proficiency
-</h2>
+{% include projects.html %}
+
+{% include publications.html %}
+
+{% include skills.html %}
