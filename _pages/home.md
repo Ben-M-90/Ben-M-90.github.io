@@ -5,7 +5,7 @@ hidden: true
 author_profile: true
 header:
   overlay_image: /assets/images/header.jpg
-  overlay_filter: linear-gradient(rgba(0,0,0,0), rgba(255,255,255,0.6))
+  overlay_filter: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.3))
 ---
 
 <h2>
