@@ -344,14 +344,14 @@ input[type="submit"],
    Resume/CV Styling
    ========================================================================== */
 
-.wrapper {
+/*.wrapper {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     max-width: 1000px;
     margin: 0 auto;
-    position: relative;
+    position: relative;*/
     /*@include box-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));*/
-}
+/*}*/
 
 .main-wrapper {
     grid-column: span 7;

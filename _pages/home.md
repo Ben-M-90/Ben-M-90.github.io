@@ -10,14 +10,6 @@ header:
 
 <div class="main-wrapper">
 
-	<h2 class="section-title">
-		<span class="fa-stack fa-xs">
-			<i class="fas fa-circle fa-stack-2x"></i>
-			<i class="fa fa-user fa-stack-1x fa-inverse"></i>
-		</span>
-		Biography
-	</h2>
-
 	{% include career-profile.html %}
 
 	{% include experiences.html %}
