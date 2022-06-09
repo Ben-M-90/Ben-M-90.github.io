@@ -31,6 +31,7 @@
 
         &.sticky {
             overflow-y: auto;
+            padding-right: 10px;
             /* calculate height of nav list
          viewport height - nav height - masthead x-padding
       */
@@ -190,6 +191,9 @@
   vertical-align: top;
   width: 36px;
   height: 36px;
+  position: relative;
+  left: 10px;
+  top: 8px;
 
   @include breakpoint($large) {
     display: block;
@@ -214,6 +218,8 @@
   padding-left: 15px;
   padding-right: 25px;
   line-height: 1;
+  background-color: $card-background;
+  border-radius: 5px;
 
   @include breakpoint($large) {
     display: block;
@@ -257,10 +263,15 @@
 .author__urls-wrapper {
   position: relative;
   display: table-cell;
-  vertical-align: middle;
+  vertical-align: bottom;
   font-family: $sans-serif;
   z-index: 20;
   cursor: pointer;
+
+.btn--inverse {
+    left: -40px;
+    bottom: 20px;
+}
 
   li:last-child {
     a {
