@@ -11,7 +11,7 @@ sidebar:
     avatar: /assets/images/bio-photo.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: 
+    email: ben.miller.90.bm@gmail.com
     phone: 
     citizenship:
     website: #do not add http://
@@ -27,14 +27,6 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: 
 
-    interests:
-      - item: Guitar
-        link:
-      - item: Gaming
-        link:
-      - item: Cooking
-        link:
-
 career-profile:
     title: Career Profile
     summary: |
@@ -49,68 +41,136 @@ education:
       university: University of Louisville
       time: 2009 - 2014
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Capstone - 1st place team project. Designed and fabricated clear ice maker sponsored by GE Appliance.
+          - Conducted market research to determine demand/interest and indentify potential freezing methods.
+          - Designed and fabricated assembly, conducted performance testing to improve efficiency and meet requirements.
+        Vehicle Dynamic & Handling - Acceleration, braking, handling, and suspension analysis.
+        Aircraft Structures - Analysis of aircraft structure (wing, fuselage, etc.) performance (sress, fatigue).
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Lead Quality Engineer
+      time: 2019 - Present
+      company: BAE Systems, Louisville, KY
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-          - Bullet point
+        Analyzed defect data, identified discrete recurring issues to 
+        drive production improvements and reduce non-conformances and 
+        costs. Acted as liaison with Government for review and approvals.
+          - Reviewed contracts and ensured requirements are met.
+          - Performed final inspection of gun systems to catch and 
+          address quality issues prior to submission to customer.
+          - Generate monthly report of Cost of Poor Quality.
+          - Act as primary point of contact for MK45 program. Take daily 
+          action items to support production and coordinate internally 
+          and externally of Quality department to have issues resolved in
+          a timely manner.
+          - Mentor, train, and direct junior staff.
+    - role: Project Engineer
+      time: 2017 - 2018
+      company: Toyota North America, Georgetown, KY
+      details: |
+        Specified body weld robotic work cells. Created 3D layout model 
+        and worked with vendors to design manufacturing equipment. 
+        Coordinated process cycle times to meet production volume and 
+        minimize costs.
+          - Released data to vendors and specified details for work cell.
+          Verified robot reach, access, ergonomics, and process times. 
+          Oversaw vendor work to ensure all parts of equipment met 
+          Toyota standards.
+          - Created plant layout drawings and coordinated 
+          construction/installation.
+          - Obtained buy-in on equipment to ensure no impact to 
+          maintenance, conveyance, production, and other Toyota groups.
+          - Created project schedule and ensured milestones were met. 
+          Worked to ensure project remained under budget and on time. 
+          Negotiated with vendors and suppliers to meet deadlines and be 
+          prepared for production.
+          - Purchased robots, controllers, weld guns, and other standard 
+          equipment needed for new production cell. Minimized costs by 
+          evaluating salvage potential and re-using existing equipment.
+    - role: Structures Engineer
+      time: 2017 - 2017
+      company: Belcan, Lexington, KY
+      details: |
+        Performed finite element analysis (FEA) using ANSYS and other 
+        software to simulate static, fatigue, modal, harmonic, and 
+        rigid-body dynamic models. Performed hand calculations using 
+        Excel to check model and analyze components in more detail 
+        (e.g. fastener or bearing analysis). Projects include working 
+        with jet engine external components and animatronic theme park 
+        characters.
+          - Analyzed and documented results and made recommendations 
+          for design changes to customer in order to reduce weight, 
+          increase performance, and/or reduce cost.
+          - Refine mesh of customer supplied part geometry to provide 
+          better, more useful or accurate results.
+          - Developed workbooks and scripts to reduce analysis time and 
+          analyze large amounts of data with fewer calculation errors 
+          (relative to hand calculations).
+    - role: Quality Engineer
+      time: 2013 - 2014
+      company: Toyota North America, Erlanger, KY
+      details: |
+        Analyzed warranty data and customer feedback to identify quality 
+        issues, conducted root cause analysis, tested parts, and worked 
+        with manufacturing, design, and sales to develop countermeasure 
+        to resolve issues.
+          - Developed Excel workbook to automate and improve data 
+          analysis on warranty claims - saved time and improved results 
+          of data analysis to provide a better scope of warranty and 
+          customer data and help identify quality concerns sooner.
+          - 2013 Avalon Obeya. Tracked Key Performance Indicators (KPI) 
+          to monitor first 6 months after start of production to ensure 
+          major model change met targets for quality. Coordinated with 
+          manufacturing and design to identify, investigate, and 
+          countermeasure any quality concerns. Documented and reported 
+          performance and status to management.
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: BestBuy Stock Bot
+        link: "https://github.com/Ben-M-90/BestBuyStockBot"
+        tagline: "Automated bot to monitor stock for limited-stock items (e.g. Graphics Cards) and quickly purchase."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+#publications:
+#    title: Publications
+#    intro: |
+#      You can list your publications in this section. Lorem ipsum dolor sit
+#      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#      bibendum fringilla a eu lectus.
+#    papers:
+#      - title: The Art of Computer Programming
+#        link: "#"
+#        authors: Donald E. Knuth
+#        conference: Addison-Wesley, 1968
 
-publications:
-    title: Publications
+#      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#        link: "#"
+#        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+interests:
+    title: Interests
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+    interests:
+      - title: Guitar
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: Gaming
+
+      - title: Cooking
+
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Python
         level: 98%
 
-      - name: Javascript & jQuery
-        level: 50%
+      - name: C#
+        level: 80%
+
+      - name: HTML
+        level: 100%
+
+      - name: CSS
+        level: 100%

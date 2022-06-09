@@ -478,6 +478,23 @@ input[type="submit"],
             margin-bottom: 15px;
         }
     }
+
+    .interests-title {
+        font-size: $type-size-5;
+        font-weight: 400;
+        /*color: $text-color;*/
+        margin-bottom: 1px;
+    }
+
+    .interests-section {
+        .intro {
+            margin-bottom: 30px;
+        }
+
+        .item {
+            margin-bottom: 15px;
+        }
+    }
 }
 
 .skillset {
