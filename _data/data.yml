@@ -30,10 +30,8 @@ sidebar:
     interests:
       - item: Guitar
         link:
-
       - item: Gaming
         link:
-
       - item: Cooking
         link:
 
@@ -115,4 +113,4 @@ skills:
         level: 98%
 
       - name: Javascript & jQuery
-        level: 98%
+        level: 50%

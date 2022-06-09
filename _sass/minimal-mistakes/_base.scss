@@ -6,6 +6,7 @@ html {
   /* sticky footer fix */
   position: relative;
   min-height: 100%;
+  font-size: 16px !important;
 }
 
 body {
@@ -21,6 +22,10 @@ body {
     /* when primary navigation is visible, the content in the background won't scroll */
     overflow: hidden;
   }
+}
+
+a {
+    text-decoration: none !important;
 }
 
 h1,
@@ -138,13 +143,11 @@ a {
 
   &:visited {
     color: $link-color-visited;
-    text-decoration: none;
   }
 
   &:hover {
     color: $link-color-hover;
     outline: 0;
-    text-decoration: none;
   }
 }
 
@@ -359,14 +362,22 @@ input[type="submit"],
     /*@include box-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));*/
 /*}*/
 
+.fa-inverse {
+    color: $code-background-color !important;
+}
+
+.main {
+    margin-top: -50px !important;
+}
+
 .main-wrapper {
     grid-column: span 7;
-    background: #fff;
     padding: 60px;
+    padding-top: 0px;
 
     .section-title {
         text-transform: uppercase;
-        font-size: 20px;
+        font-size: $type-size-4;
         font-weight: 500;
         /*color: darken($theme-color, 15%);*/
         position: relative;
@@ -394,29 +405,31 @@ input[type="submit"],
     .job-title,
     .degree {
         /*color: $text-color;*/
-        font-size: 16px;
+        font-size: $type-size-5;
         margin-top: 0;
         margin-bottom: 0;
-        font-weight: 500;
+        font-weight: 600;
     }
 
     .time {
         position: absolute;
         right: 0;
         top: 0;
-        font-size: 14px !important;
+        font-size: $type-size-5 !important;
+        font-style: italic;
         /*color: $text-grey;*/
     }
 
     .company,
     .university {
         margin-bottom: 10px;
-        font-size: 14px
+        font-size: $type-size-5;
+        font-style: italic;
         /*color: $text-grey;*/
     }
 
     .project-title {
-        font-size: 16px;
+        font-size: $type-size-5;
         font-weight: 400;
         margin-top: 0;
         margin-bottom: 5px;
@@ -424,7 +437,7 @@ input[type="submit"],
     }
 
     .project-tagline {
-        font-size: 16px;
+        font-size: $type-size-5;
         margin-top: 0;
         margin-bottom: 5px;
         /*color: darken($theme-color, 15%);*/
@@ -441,7 +454,7 @@ input[type="submit"],
     }
 
     .publication-title {
-        font-size: 16px;
+        font-size: $type-size-5;
         font-weight: 400;
         /*color: $text-color;*/
         margin-bottom: 1px;
@@ -450,7 +463,7 @@ input[type="submit"],
     .publication-authors,
     .publication-conference {
         font-style: italic;
-        font-size: 16px;
+        font-size: $type-size-5;
         /*color: $text-grey;*/
         margin-bottom: 1px;
     }
@@ -473,18 +486,18 @@ input[type="submit"],
     }
 
     .level-title {
-        font-size: 14px;
+        font-size: $type-size-6;
         margin-top: 0;
         margin-bottom: 12px;
     }
 
     .level-bar {
         height: 12px;
-        background: $code-background-color;
+        background: $border-color;
     }
 
     .level-bar-inner {
         height: 12px;
-        background: lighten($primary-color, 15%);
+        background: $primary-color;
     }
 }
