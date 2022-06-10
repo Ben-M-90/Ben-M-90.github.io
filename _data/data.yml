@@ -30,12 +30,19 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Mechanical Engineer seeking to leverage data analytics skills, 
+      effective team-based communication, project management experience, 
+      and passion for technology make a career change into Software 
+      Engineering. Previous work history in product design and 
+      manufacturing has instilled with me a foundation of organization, 
+      appreciation for implementing and following defined standards, and 
+      problem solving skills to meet deadlines, ensure customer 
+      satisfaction, and continous improvement.
+
+      Software has been a passion of mine since I was young. Interests in 
+      computers, general technology, and a DIY-attitude has led to my 
+      personal development of software skills both academically (stacks 
+      of books) and personally (various personal projects).
 education:
     - degree: B.Sc in Mechanical Engineering
       university: University of Louisville
