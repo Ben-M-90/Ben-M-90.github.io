@@ -26,7 +26,20 @@
     {% if experience.details %}
     <div class="details">
       {{ experience.details | markdownify }}
-      {{ experience.expanded | markdownify }}
+      <div class="collapse show" id="experience-expanded-details">
+          {{ experience.expanded | markdownify }}
+      </div>
+      <button class="btn-experience-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#experience-expanded-details" aria-expanded="true" aria-controls="experience-expanded-details">
+          Show
+          <span class="less">
+              less
+              <span class="fas fa-chevron-up ms-2 fs--2"></span>
+          </span>
+          <span class="full">
+              full
+              <span class="fas fa-chevron-down ms-2 fs--2"></span>
+          </span>
+      </button>
     </div><!--//details-->
     {% endif %}
 

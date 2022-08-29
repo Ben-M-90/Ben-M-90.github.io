@@ -2,6 +2,26 @@
    BASE ELEMENTS
    ========================================================================== */
 
+.collapse:not(.show) {
+    display: none
+}
+
+.show {
+    display: block
+}
+
+.btn-experience-collapse .less {
+    display: none
+}
+
+.btn-experience-collapse[aria-expanded=true] .less {
+    display: inline
+}
+
+.btn-experience-collapse[area-expanded=true] .full {
+    display: none
+}
+
 html {
   /* sticky footer fix */
   position: relative;
