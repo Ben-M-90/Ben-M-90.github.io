@@ -332,8 +332,6 @@
 
     &.is--visible {
         display: block;
-        left: 0px;
-        width: auto;
     }
 
     @include breakpoint($large) {
@@ -344,6 +342,8 @@
         border: 0;
         background: transparent;
         box-shadow: none;
+        left: 0px;
+        width: auto;
     }
 
     &:before {
