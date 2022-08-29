@@ -27,40 +27,45 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: 
 
+    # Sidebar Skills
+
+
 career-profile:
     title: Career Profile
     summary: |
-      Mechanical Engineer seeking to leverage data analytics skills, 
-      effective team-based communication, project management experience, 
-      and passion for technology to make a career change into Software 
-      Engineering. Previous work history in product design and 
-      manufacturing has instilled with me a foundation of organization, 
-      appreciation for implementing and following defined standards, and 
-      problem solving skills to meet deadlines, ensure customer 
-      satisfaction, and continous improvement.
+      Passionate, self-taught Software Engineer with experience developing 
+      in a variety of languages including Python (primary), C#, C++, 
+      JavaScript, and many others.
 
-      Software has been a passion of mine since I was young. Interests in 
-      computers, general technology, and a DIY-attitude has led to my 
-      personal development of software skills both academically (stacks 
-      of books) and personally (various personal projects).
+      My drive for learning in the software and tech world began when I was 
+      in Middle School where I learned to design and develop full featured 
+      websites using languages from as simple as HTML and CSS to more 
+      advanced such as PHP or JavaScript. This early experience gave me a 
+      solid foundation and sparked a lifelong passion that I've continued 
+      to develop.
+
+      In University, I took several programming courses outside of my chosen 
+      major (Mechanical Engineering) that helped to reignite this passion. 
+      Through these courses I deepened my understanding of software 
+      development and kicked off various passion projects that have helped me 
+      to continue learning and honing these skills.
+
+      My latest journey in the tech world has driven me to developing in Python, 
+      working on back-end and full-stack projects utilizing a large breadth of 
+      libraries and frameworks from Django to Pytest.
 education:
     - degree: B.Sc in Mechanical Engineering
       university: University of Louisville
       time: 2009 - 2014
-      details: |
-        Capstone - 1st place team project. Designed and fabricated clear ice maker sponsored by GE Appliance.
-          - Conducted market research to determine demand/interest and indentify potential freezing methods.
-          - Designed and fabricated assembly, conducted performance testing to improve efficiency and meet requirements.
-        Vehicle Dynamic & Handling - Acceleration, braking, handling, and suspension analysis.
-        Aircraft Structures - Analysis of aircraft structure (wing, fuselage, etc.) performance (sress, fatigue).
+      details: 
 experiences:
     - role: Lead Quality Engineer
       time: 2019 - Present
       company: BAE Systems, Louisville, KY
       details: |
         Analyzed defect data, identified discrete recurring issues to 
-        drive production improvements and reduce non-conformances and 
-        costs. Acted as liaison with Government for review and approvals.
+        drive production improvements and reduce quality issues and 
+        associated cost impact.
           - Reviewed contracts and ensured requirements are met.
           - Performed final inspection of gun systems to catch and 
           address quality issues prior to submission to customer.
@@ -74,39 +79,21 @@ experiences:
       time: 2017 - 2018
       company: Toyota North America, Georgetown, KY
       details: |
-        Specified body weld robotic work cells. Created 3D layout model 
-        and worked with vendors to design manufacturing equipment. 
-        Coordinated process cycle times to meet production volume and 
-        minimize costs.
-          - Released data to vendors and specified details for work cell.
-          Verified robot reach, access, ergonomics, and process times. 
-          Oversaw vendor work to ensure all parts of equipment met 
-          Toyota standards.
-          - Created plant layout drawings and coordinated 
-          construction/installation.
-          - Obtained buy-in on equipment to ensure no impact to 
-          maintenance, conveyance, production, and other Toyota groups.
-          - Created project schedule and ensured milestones were met. 
-          Worked to ensure project remained under budget and on time. 
-          Negotiated with vendors and suppliers to meet deadlines and be 
-          prepared for production.
-          - Purchased robots, controllers, weld guns, and other standard 
-          equipment needed for new production cell. Minimized costs by 
-          evaluating salvage potential and re-using existing equipment.
+        Directed development and installation of robotic weld cells.
+          - Coordinated and managed various teams to have components
+          purchased, systems tested, and equipment installed.
+          - Created project schedule and budgets.
+          - Oversaw vendors to design and test robotic weld cells and
+          meet deadlines for new model production start.
     - role: Structures Engineer
       time: 2017 - 2017
       company: Belcan, Lexington, KY
       details: |
-        Performed finite element analysis (FEA) using ANSYS and other 
-        software to simulate static, fatigue, modal, harmonic, and 
-        rigid-body dynamic models. Performed hand calculations using 
-        Excel to check model and analyze components in more detail 
-        (e.g. fastener or bearing analysis). Projects include working 
-        with jet engine external components and animatronic theme park 
-        characters.
-          - Analyzed and documented results and made recommendations 
-          for design changes to customer in order to reduce weight, 
-          increase performance, and/or reduce cost.
+        Engineering analysis of Pratt & Whitney jet engines and 
+        Universal Studios animatronic theme park characters.
+          - Analyzed and documented analysis results and made 
+          recommendations for desig changes to customer in order
+          to improve product design.
           - Refine mesh of customer supplied part geometry to provide 
           better, more useful or accurate results.
           - Developed workbooks and scripts to reduce analysis time and 
@@ -120,23 +107,38 @@ experiences:
         issues, conducted root cause analysis, tested parts, and worked 
         with manufacturing, design, and sales to develop countermeasure 
         to resolve issues.
-          - Developed Excel workbook to automate and improve data 
+          - Developed VBA Excel workbook to automate and improve data 
           analysis on warranty claims - saved time and improved results 
           of data analysis to provide a better scope of warranty and 
           customer data and help identify quality concerns sooner.
-          - 2013 Avalon Obeya. Tracked Key Performance Indicators (KPI) 
-          to monitor first 6 months after start of production to ensure 
-          major model change met targets for quality. Coordinated with 
-          manufacturing and design to identify, investigate, and 
-          countermeasure any quality concerns. Documented and reported 
-          performance and status to management.
+          - New model Obeya launch project managemennt. Tracked KPI's for
+          early product launch to improve vehicle quality and coordinate
+          with cross-functional teams from design & manufacturing to
+          implement coutermeasures to defects.
 projects:
     title: Projects
     intro: >
     assignments:
       - title: BestBuy Stock Bot
         link: "https://github.com/Ben-M-90/BestBuyStockBot"
-        tagline: "Automated bot to monitor stock for limited-stock items (e.g. Graphics Cards) and quickly purchase."
+        tagline: |
+         First project used to practice developing with Python. Bot that 
+         monitors stock of given product URL (intended to monitor GPU's 
+         during GPU shortage) and quickly purchase once stock has become 
+         available. Used Selenium to interact with browser and various 
+         strategies to mask bot from detection. Capable of identifying 
+         stock and executing a purchase within 10 seconds of stock becoming 
+         available.
+      - title: Stock Simulator
+        link: "https://github.com/Ben-M-90/stock_sim"
+        tagline: |
+         Second project in Python, developed after studying software 
+         architecture and clean coding practices. Django web app that 
+         uses live stock market data and allows users to create mock stock 
+         portfolios to test trading strategies. Used to expand knowledge of 
+         Python development, gain experience developing a front-end with 
+         Python, and practice implementation of various software architecture 
+         practices and principles such as Test Driven Development and SOLID.
 
 #publications:
 #    title: Publications
@@ -172,6 +174,9 @@ skills:
     toolset:
       - name: Python
         level: 85%
+        
+      - name: Django
+        level: 75%
 
       - name: C#
         level: 75%
@@ -181,3 +186,7 @@ skills:
 
       - name: CSS
         level: 100%
+
+      - name: JavaScript
+        level: 40%
+     
