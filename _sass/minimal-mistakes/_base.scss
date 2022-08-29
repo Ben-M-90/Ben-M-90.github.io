@@ -18,7 +18,7 @@
     display: inline
 }
 
-.btn-experience-collapse[area-expanded=true] .full {
+.btn-experience-collapse[aria-expanded=true] .full {
     display: none
 }
 
