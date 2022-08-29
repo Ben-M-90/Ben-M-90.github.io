@@ -332,6 +332,7 @@
 
     &.is--visible {
         display: block;
+        left: 0px;
     }
 
     @include breakpoint($large) {
