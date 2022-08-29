@@ -1,48 +1,55 @@
 {% assign experiences = site.data.data.experiences %}
 {% if experiences %}
 <section class="section experiences-section">
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
-    </span>
-    Experiences
-  </h2>
+    <h2 class="section-title">
+        <span class="fa-stack fa-xs">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+        </span>
+        Experience
+        <button class="btn btn-link d-block w-100 btn-experience-collapse"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#experience-section"
+                aria-expanded="false"
+                aria-controls="experience-section">
+            <span class="less">Hide<span class="fas fa-chevron-up ms-2 fs--2"></span></span><span class="full-button">Show<span class="fas fa-chevron-down ms-2 fs--2"></span></span>
+        </button>
+    </h2>
+  <div class="collapse show" id="experience-section">
+      {% for experience in experiences %}
+      <div class="item">
 
-  {% for experience in experiences %}
-  <div class="item">
+          <div class="meta">
 
-    <div class="meta">
+              <div class="upper-row">
+                  <h3 class="job-title">{{ experience.role }}</h3>
+                  <div class="time">{{ experience.time }}</div>
+              </div><!--//upper-row-->
 
-      <div class="upper-row">
-        <h3 class="job-title">{{ experience.role }}</h3>
-        <div class="time">{{ experience.time }}</div>
-      </div><!--//upper-row-->
+              <div class="company">{{ experience.company }}</div>
 
-      <div class="company">{{ experience.company }}</div>
+          </div><!--//meta-->
+          {% if experience.details %}
+          <div class="details">
+              {{ experience.details | markdownify }}
+              <div class="collapse" id="experience-expanded-details-{{experience.id}}">
+                  {{ experience.expanded | markdownify }}
+              </div>
+              <button class="btn btn-link d-block w-100 btn-experience-collapse"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#experience-expanded-details-{{experience.id}}"
+                      aria-expanded="false"
+                      aria-controls="experience-expanded-details-{{experience.id}}">
+                  Show <span class="less">less<span class="fas fa-chevron-up ms-2 fs--2"></span></span><span class="full-button">full<span class="fas fa-chevron-down ms-2 fs--2"></span></span>
+              </button>
+          </div><!--//details-->
+          {% endif %}
 
-    </div><!--//meta-->
-
-    {% if experience.details %}
-    <div class="details">
-      {{ experience.details | markdownify }}
-      <div class="collapse" id="experience-expanded-details-{{experience.id}}">
-          {{ experience.expanded | markdownify }}
-      </div>
-      <button class="btn btn-link d-block w-100 btn-experience-collapse" 
-              type="button" 
-              data-bs-toggle="collapse" 
-              data-bs-target="#experience-expanded-details-{{experience.id}}" 
-              aria-expanded="false" 
-              aria-controls="experience-expanded-details-{{experience.id}}">
-          Show <span class="less">less<span class="fas fa-chevron-up ms-2 fs--2"></span></span><span class="full-button">full<span class="fas fa-chevron-down ms-2 fs--2"></span></span>
-      </button>
-    </div><!--//details-->
-    {% endif %}
-
-  </div><!--//item-->
-  {% endfor %}
-
+      </div><!--//item-->
+      {% endfor %}
+  </div>
 </section><!--//section-->
 {% endif %}
 
