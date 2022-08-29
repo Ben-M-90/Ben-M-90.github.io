@@ -528,7 +528,7 @@ input[type="submit"],
     }
 
     .level-title {
-        font-size: $type-size-6;
+        font-size: $type-size-6 !important;
         margin-top: 0;
         margin-bottom: 3px;
     }
@@ -543,4 +543,8 @@ input[type="submit"],
         height: 12px;
         background: $primary-color;
     }
+}
+
+.sidebar-container {
+    background-color: $card-background;
 }
