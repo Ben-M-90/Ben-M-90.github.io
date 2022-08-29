@@ -1,5 +1,6 @@
 {% if page.author_profile or layout.author_profile or page.sidebar %}
     {% assign sidebar = site.data.data.sidebar %}
+    {% assign skills = site.data.data.skills %}
     <div class="sidebar sticky">
         {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
         {% if page.sidebar %}
@@ -16,7 +17,7 @@
                 {% include nav_list nav=page.sidebar.nav %}
             {% endif %}
 
-            {% for skill in page.skills.toolset %}
+            {% for skill in skills.toolset %}
                 <div class="item">
 
                   <h3 class="level-title">{{ skill.name }}</h3>
