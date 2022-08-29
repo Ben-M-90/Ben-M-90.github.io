@@ -547,4 +547,8 @@ input[type="submit"],
 
 .sidebar-container {
     background-color: $card-background;
+    padding: 20px 10px 10px 10px;
+    margin-top: -10px;
+    border-radius: 10px;
+    border: 1px solid $background-color;
 }
