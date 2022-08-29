@@ -26,10 +26,15 @@
     {% if experience.details %}
     <div class="details">
       {{ experience.details | markdownify }}
-      <div class="show collapse" id="experience-expanded-details">
+      <div class="show collapse" id="experience-expanded-details-{{experience.id}}">
           {{ experience.expanded | markdownify }}
       </div>
-      <button class="btn btn-link d-block w-100 btn-experience-collapse" type="button" data-bs-toggle="show" data-bs-target="#experience-expanded-details" aria-expanded="false" aria-controls="experience-expanded-details">
+      <button class="btn btn-link d-block w-100 btn-experience-collapse" 
+              type="button" 
+              data-bs-toggle="collapse" 
+              data-bs-target="#experience-expanded-details-{{experience.id}}" 
+              aria-expanded="false" 
+              aria-controls="experience-expanded-details-{{experience.id}}">
           Show
           <span class="less">
               less

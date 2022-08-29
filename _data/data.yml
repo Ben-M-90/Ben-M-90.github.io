@@ -62,6 +62,7 @@ experiences:
     - role: Lead Quality Engineer
       time: 2019 - Present
       company: BAE Systems, Louisville, KY
+      id: 4
       details: |
         Analyzed defect data, identified discrete recurring issues to 
         drive production improvements and reduce quality issues and 
@@ -79,6 +80,7 @@ experiences:
     - role: Project Engineer
       time: 2017 - 2018
       company: Toyota North America, Georgetown, KY
+      id: 3
       details: |
         Directed development and installation of robotic weld cells.
       expanded: |
@@ -90,6 +92,7 @@ experiences:
     - role: Structures Engineer
       time: 2017 - 2017
       company: Belcan, Lexington, KY
+      id: 2
       details: |
         Engineering analysis of Pratt & Whitney jet engines and 
         Universal Studios animatronic theme park characters.
@@ -105,6 +108,7 @@ experiences:
     - role: Quality Engineer
       time: 2013 - 2014
       company: Toyota North America, Erlanger, KY
+      id: 1
       details: |
         Analyzed warranty data and customer feedback to identify quality 
         issues, conducted root cause analysis, tested parts, and worked 
