@@ -16,10 +16,6 @@ header:
 
 	{% include experiences.html %}
 
-	{% include publications.html %}
-
-	{% include skills.html %}
-
     {% include interests.html %}
 
 </div>
