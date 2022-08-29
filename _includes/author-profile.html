@@ -13,7 +13,7 @@
     {% endif %}
 
     <div class="author__content">
-        <h3 class="author__name p-name" itemprop="name">
+        <h3 class="author__name" itemprop="name">
             <a class="u-url" rel="me" href="{{ author.home | default: '/' | absolute_url }}" itemprop="url">{{ author.name }}</a>
         </h3>
         {% if author.bio %}
@@ -254,7 +254,7 @@
 </div>
 <section class="skills-section section">
 
-    <h2 class="section-title">
+    <h2 class="section-title" style="font-weight: 500 !important; margin-top: 30px !important; text-transform: uppercase;">
         <span class="fa-stack fa-xs">
             <i class="fas fa-circle fa-stack-2x"></i>
             <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
