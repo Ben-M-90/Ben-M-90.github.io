@@ -2,13 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\assets\\css",
-    "\\assets\\js\\plugins",
-    "\\assets\\plugins",
+    "\\_data",
+    "\\_includes",
+    "\\_includes\\head",
     "\\_layouts",
-    "\\_sass",
-    "\\_sass\\minimal-mistakes"
+    "\\_pages"
   ],
-  "SelectedNode": "\\_layouts\\single.html",
+  "SelectedNode": "\\_includes\\sidebar.html",
   "PreviewInSolutionExplorer": false
 }
