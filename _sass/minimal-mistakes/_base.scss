@@ -499,7 +499,7 @@ input[type="submit"],
 
 .skillset {
     .item {
-        margin-bottom: 15px;
+        margin-bottom: 10px;
         overflow: hidden;
     }
 
@@ -512,7 +512,7 @@ input[type="submit"],
     .level-bar {
         height: 12px;
         background: $border-color;
-        width: 50%;
+        width: 100%;
     }
 
     .level-bar-inner {
