@@ -17,17 +17,8 @@
                 {% include nav_list nav=page.sidebar.nav %}
             {% endif %}
 
-            {% for skill in page.skills.toolset %}
-                <div class="item">
-
-                  <h3 class="level-title">{{ skill.name }}</h3>
-
-                  <div class="level-bar">
-                    <div class="level-bar-inner" data-level="{{ skill.level }}">
-                    </div>
-                  </div><!--//level-bar-->
-
-                </div><!--//item-->
+            {% for skill in skills.toolset %}
+                <h3>{{ skill.name }}</h3>
             {% endfor %}
         {% endif %}
 
