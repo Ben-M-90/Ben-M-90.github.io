@@ -8,19 +8,27 @@
             <i class="fas fa-heart fa-stack-1x fa-inverse"></i>
         </span>
         {{ interests.title }}
+        <button class="btn btn-link btn-experience-collapse"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#interests-section"
+                aria-expanded="false"
+                aria-controls="interests-section">
+            <span class="less">Hide<span class="fas fa-chevron-up ms-2 fs--2"></span></span><span class="full-button">Show<span class="fas fa-chevron-down ms-2 fs--2"></span></span>
+        </button>
     </h2>
+    <div class="collapse" id="interests-section">
+        {% if interests.intro %}
+        <div class="intro">
+            {{ interests.intro | markdownify }}
+        </div><!--//intro-->
+        {% endif %}
 
-    {% if interests.intro %}
-    <div class="intro">
-        {{ interests.intro | markdownify }}
-    </div><!--//intro-->
-    {% endif %}
-
-    {% for interests in interests.interests %}
-    <div class="item">
-        <li>{{ interests.title }}</li>
-    </div><!--//item-->
-    {% endfor %}
-
+        {% for interests in interests.interests %}
+        <div class="item">
+            <li>{{ interests.title }}</li>
+        </div><!--//item-->
+        {% endfor %}
+    </div>
 </section><!--//section-->
 {% endif %}
