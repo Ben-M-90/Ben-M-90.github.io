@@ -24,6 +24,30 @@ body {
   }
 }
 
+.collapse:not(.show) {
+    display: none
+}
+
+.show {
+    display: block
+}
+
+.btn-experience-collapse .less {
+    display: none
+}
+
+.btn-experience-collapse[aria-expanded=true] .less {
+    display: inline
+}
+
+.btn-experience-collapse[aria-expanded=true] .full {
+    display: none
+}
+
+.d-block {
+    display: block !important
+}
+
 a {
     text-decoration: none !important;
 }
