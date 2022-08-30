@@ -129,7 +129,7 @@ projects:
     assignments:
       - title: BestBuy Stock Bot
         link: "https://github.com/Ben-M-90/BestBuyStockBot"
-        icon: "/assets/images/bio-photo.jpg"
+        icon: "/assets/images/stock_bot_icon.jpg"
         id: 0
         tagline: |
          First project used to practice developing with Python. Bot that 
@@ -141,7 +141,7 @@ projects:
          available.
       - title: Stock Simulator
         link: "https://github.com/Ben-M-90/stock_sim"
-        icon: "/assets/images/bio-photo.jpg"
+        icon: "/assets/images/stock_sim_icon.jpg"
         id: 1
         primary: True
         tagline: |
