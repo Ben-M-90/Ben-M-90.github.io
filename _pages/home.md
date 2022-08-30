@@ -3,15 +3,14 @@ layout: single
 permalink: /
 hidden: true
 author_profile: true
-toc: true
-toc_sticky: true
+toc: false
+toc_sticky: false
 header:
   overlay_image: /assets/images/header.jpg
   overlay_filter: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5))
 ---
 
 <div class="main-wrapper">
-	## Career Profile
 	{% include career-profile.html %}
 
 	{% include projects.html %}
