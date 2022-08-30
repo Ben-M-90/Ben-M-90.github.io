@@ -24,8 +24,8 @@ body {
   }
 }
 
-.carousel-item {
-    background-color: $background-color;
+.carousel-caption {
+    background-color: $background-color !important;
 }
 
 .collapse:not(.show) {
