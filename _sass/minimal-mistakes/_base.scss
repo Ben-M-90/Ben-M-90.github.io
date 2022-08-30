@@ -24,6 +24,10 @@ body {
   }
 }
 
+.carousel-item {
+    background-color: $background-color;
+}
+
 .collapse:not(.show) {
     display: none
 }
