@@ -40,13 +40,13 @@
             {% for project in projects.assignments %}
                 {% if project.primary %}
                 <button type="button" 
-                        data-bs-target="#projectsCarouselIndicators" 
+                        data-bs-target="#projectsCarousel" 
                         data-bs-slide-to="{{ project.id }}" 
                         class="active" aria-current="true"
                         aria-label="{{ project.title }}"></button>
                 {% else %}
                 <button type="button"
-                        data-bs-target="#projectsCarouselIndicators"
+                        data-bs-target="#projectsCarousel"
                         data-bs-slide-to="{{ project.id }}"
                         aria-label="{{ project.title }}"></button>
                 {% endif %}
@@ -73,11 +73,11 @@
                 {% endif %}
             {% endfor %}
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarouselIndicators" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#projectsCarouselIndicators" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
