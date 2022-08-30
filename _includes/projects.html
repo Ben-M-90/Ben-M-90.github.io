@@ -56,10 +56,14 @@
             {% for project in projects.assignments %}
                 {% if project.primary %}
                     <div class="carousel-item active" data-bs-interval="30000">
-                        <img src="{{ project.icon | relative_url }}" class="d-block" height="500" alt="{{ project.title }}">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5><a href="{{ project.link }}" target="_blank">{{ project.title }}</a></h5>
-                            <p>{{project.tagline}}</p>
+                        <div class="d-flex align-items-center">
+                            <div>
+                                <img src="{{ project.icon | relative_url }}" class="d-block" height="500" alt="{{ project.title }}">
+                            </div>
+                            <div class="flex-1">
+                                <h5><a href="{{ project.link }}" target="_blank">{{ project.title }}</a></h5>
+                                <p class="d-flex">{{project.tagline}}</p>
+                            </div>
                         </div>
                     </div>
                 {% else %}
