@@ -130,6 +130,7 @@ projects:
       - title: BestBuy Stock Bot
         link: "https://github.com/Ben-M-90/BestBuyStockBot"
         icon: "/assets/images/bio-photo.jpg"
+        id: 0
         tagline: |
          First project used to practice developing with Python. Bot that 
          monitors stock of given product URL (intended to monitor GPU's 
@@ -141,6 +142,8 @@ projects:
       - title: Stock Simulator
         link: "https://github.com/Ben-M-90/stock_sim"
         icon: "/assets/images/bio-photo.jpg"
+        id: 1
+        primary: True
         tagline: |
          Second project in Python, developed after studying software 
          architecture and clean coding practices. Django web app that 
