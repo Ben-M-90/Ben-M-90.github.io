@@ -35,7 +35,7 @@
   {% endfor %}
 
 
-    <div id="projectsCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div id="projectsCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             {% for project in projects.assignments %}
                 {% if project.primary %}
@@ -57,7 +57,7 @@
                 {% if project.primary %}
                     <div class="carousel-item active" data-bs-interval="30000">
                         <img src="{{ project.icon | relative_url }}" class="d-block" height="500" alt="{{ project.title }}">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption d-none d-md-block" style="bottom: 0; right: 0; left: 0; background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 35%, rgba(0,0,0,0) 100%); color:#fff;">
                             <h5><a href="{{ project.link }}" target="_blank">{{ project.title }}</a></h5>
                             <p class="d-flex">{{project.tagline}}</p>
                         </div>
@@ -65,7 +65,7 @@
                 {% else %}
                     <div class="carousel-item" data-bs-interval="30000">
                         <img src="{{ project.icon | relative_url }}" class="d-block" height="500" alt="{{ project.title }}">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption d-none d-md-block" style="bottom: 0; right: 0; left: 0; background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 35%, rgba(0,0,0,0) 100%); color:#fff;">
                             <h5><a href="{{ project.link }}" target="_blank">{{ project.title }}</a></h5>
                             <p class="d-flex">{{project.tagline}}</p>
                         </div>
