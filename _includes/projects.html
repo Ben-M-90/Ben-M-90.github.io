@@ -16,25 +16,6 @@
   </div><!--//intro-->
   {% endif %}
 
-  {% for project in projects.assignments %}
-    <div class="item">
-
-      <span class="project-title">
-        {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
-        {% else %}
-        {{ project.title }}
-        {% endif %}
-      </span>
-
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
-      {% endif %}
-
-    </div><!--//item-->
-  {% endfor %}
-
-
     <div id="projectsCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             {% for project in projects.assignments %}
@@ -58,7 +39,7 @@
                     <div class="carousel-item active" data-bs-interval="30000">
                         <img src="{{ project.icon | relative_url }}" class="d-block" height="500" alt="{{ project.title }}">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5><a href="{{ project.link }}" target="_blank">{{ project.title }}</a></h5>
+                            <h4><a href="{{ project.link }}" target="_blank">{{ project.title }}</a></h4>
                             <p class="d-flex">{{project.tagline}}</p>
                         </div>
                     </div>
@@ -66,7 +47,7 @@
                     <div class="carousel-item" data-bs-interval="30000">
                         <img src="{{ project.icon | relative_url }}" class="d-block" height="500" alt="{{ project.title }}">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5><a href="{{ project.link }}" target="_blank">{{ project.title }}</a></h5>
+                            <h4><a href="{{ project.link }}" target="_blank">{{ project.title }}</a></h4>
                             <p class="d-flex">{{project.tagline}}</p>
                         </div>
                     </div>
