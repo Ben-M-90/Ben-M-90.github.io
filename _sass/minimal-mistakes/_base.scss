@@ -27,10 +27,13 @@ body {
 .carousel-caption {
     background-color: transparent !important;
     color: #fff !important;
+    text-shadow: 2px 2px 2px #000000;
     bottom: 0 !important;
     right: 0 !important;
     left: 0 !important;
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 35%, rgba(0,0,0,0) 100%);
+    padding-left: 30px;
+    padding-right: 30px;
+    background: linear-gradient(0deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.9) 35%, rgba(0,0,0,0) 100%);
 }
 
 .carousel-item {
