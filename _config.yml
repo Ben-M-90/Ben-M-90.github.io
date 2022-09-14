@@ -108,11 +108,11 @@ author:
   avatar           : "/assets/images/bio-photo.jpg"
   bio              : "Software Engineer"
   location         : "Louisville, KY"
-  email            :
+  email            : "ben.miller.90.bm@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "ben.miller.90.bm@gmail.com"
+      # url: "ben.miller.90.bm@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://ben-m-90.github.io"

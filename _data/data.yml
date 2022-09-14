@@ -11,11 +11,11 @@ sidebar:
     avatar: /assets/images/bio-photo.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: 
+    email: ben.miller.90.bm@gmail.com
     phone: 
     citizenship:
     website: #do not add http://
-    linkedin: 
+    linkedin: ben-a-miller
     xing: 
     github: ben-m-90
     telegram: # add your nickname without '@' sign
@@ -33,26 +33,9 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Passionate, self-taught Software Engineer with experience developing 
-      in a variety of languages including Python (primary), C#, C++, 
-      JavaScript, and many others.
-
-      My drive for learning in the software and tech world began when I was 
-      in Middle School where I learned to design and develop full featured 
-      websites using languages from as simple as HTML and CSS to more 
-      advanced such as PHP or JavaScript. This early experience gave me a 
-      solid foundation and sparked a lifelong passion that I've continued 
-      to develop.
-
-      In University, I took several programming courses outside of my chosen 
-      major (Mechanical Engineering) that helped to reignite this passion. 
-      Through these courses I deepened my understanding of software 
-      development and kicked off various passion projects that have helped me 
-      to continue learning and honing these skills.
-
-      My latest journey in the tech world has driven me to developing in Python, 
-      working on back-end and full-stack projects utilizing a large breadth of 
-      libraries and frameworks from Django to Pytest.
+      Seeking to transition into Software Engineering by leveraging project 
+      management experience, problem-solving skills, and a lifelong passion 
+      for software.
 education:
     - degree: B.Sc in Mechanical Engineering
       university: University of Louisville
@@ -68,14 +51,9 @@ experiences:
         drive production improvements and reduce quality issues and 
         associated cost impact.
       expanded: |
-          - Reviewed contracts and ensured requirements are met.
-          - Performed final inspection of gun systems to catch and 
-          address quality issues prior to submission to customer.
-          - Generate monthly report of Cost of Poor Quality.
-          - Act as primary point of contact for MK45 program. Take daily 
-          action items to support production and coordinate internally 
-          and externally of Quality department to have issues resolved in
-          a timely manner.
+          - Data analysis of defects to drive root cause and process 
+          improvements. Act as primary liaison with the customer and 
+          ensure contractual requirements were met.
           - Mentor, train, and direct junior staff.
     - role: Project Engineer
       time: 2017 - 2018
@@ -84,11 +62,11 @@ experiences:
       details: |
         Directed development and installation of robotic weld cells.
       expanded: |
-          - Coordinated and managed various teams to have components
-          purchased, systems tested, and equipment installed.
-          - Created project schedule and budgets.
-          - Oversaw vendors to design and test robotic weld cells and
-          meet deadlines for new model production start.
+          - Managed budget, schedule, & specification of new robotic 
+          weld equipment.
+          - Oversaw vendors to design custom equipment and purchase 
+          components.
+          - Planned and coordinated installation and delivery of equipment.
     - role: Structures Engineer
       time: 2017 - 2017
       company: Belcan, Lexington, KY
@@ -97,14 +75,7 @@ experiences:
         Engineering analysis of Pratt & Whitney jet engines and 
         Universal Studios animatronic theme park characters.
       expanded: |
-          - Analyzed and documented analysis results and made 
-          recommendations for design changes to customer in order
-          to improve product design.
-          - Refine mesh of customer supplied part geometry to provide 
-          better, more useful or accurate results.
-          - Developed workbooks and scripts to reduce analysis time and 
-          analyze large amounts of data with fewer calculation errors 
-          (relative to hand calculations).
+          - Developed scripts to automate parameterized analysis.
     - role: Quality Engineer
       time: 2013 - 2014
       company: Toyota North America, Erlanger, KY
@@ -115,14 +86,10 @@ experiences:
         with manufacturing, design, and sales to develop countermeasure 
         to resolve issues.
       expanded: |
-          - Developed VBA Excel workbook to automate and improve data 
-          analysis on warranty claims - saved time and improved results 
-          of data analysis to provide a better scope of warranty and 
-          customer data and help identify quality concerns sooner.
-          - New model Obeya launch project management. Tracked KPI's for
-          early product launch to improve vehicle quality and coordinate
-          with cross-functional teams from design & manufacturing to
-          implement countermeasures to defects.
+          - Developed analysis tools to identify defects using large 
+          datasets and drive process and design changes.
+          - Worked with cross-functional teams to develop and implement 
+          countermeasures.
 projects:
     title: Projects
     intro: >
@@ -132,26 +99,20 @@ projects:
         icon: "/assets/images/stock_bot_icon.png"
         id: 0
         tagline: |
-         First project used to practice developing with Python. Bot that 
-         monitors stock of given product URL (intended to monitor GPU's 
-         during GPU shortage) and quickly purchase once stock has become 
-         available. Used Selenium to interact with browser and various 
-         strategies to mask bot from detection. Capable of identifying 
-         stock and executing a purchase within 10 seconds of stock becoming 
-         available.
+         - Django web app with custom web scraper that retrieves stock market data.
+         - Update POST calls made asynchronously through ajax. Data display updated without page reload via DOM manipulation with response from ajax success.
+         - Data stored in PostgreSQL database, updated by user demand and age to reduce database demand.
+
       - title: Stock Simulator
         link: "https://github.com/Ben-M-90/stock_sim"
         icon: "/assets/images/stock_sim_icon.png"
         id: 1
         primary: True
         tagline: |
-         Second project in Python, developed after studying software 
-         architecture and clean coding practices. Django web app that 
-         uses live stock market data and allows users to create mock stock 
-         portfolios to test trading strategies. Used to expand knowledge of 
-         Python development, gain experience developing a front-end with 
-         Python, and practice implementation of various software architecture 
-         practices and principles such as Test Driven Development and SOLID.
+         - Bot that monitors Best Buy product pages using Selenium. Configurable for different products.
+         - Asynchronously loads pages while masking bot presence.
+         - Configurable to automatically purchase and set payment/delivery options.
+
 
 #publications:
 #    title: Publications
@@ -202,4 +163,10 @@ skills:
 
       - name: JavaScript
         level: 40%
+
+      - name: Pytest
+        level: 70%
+
+      - name: SQL
+        level: 70%
      
